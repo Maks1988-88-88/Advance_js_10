@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<form class="search-form">
+			<button class="mdc-btn js-get" type="submit">Get all users</button>
+		</form>
+
+		<form class="search-form">
+			<input class = "js-input-get-id"	type="text" name="country" placeholder="Enter user id">
+			<button class="mdc-btn js-get-id" type="submit">Get user by id</button>
+		</form>
+
+		<form class="search-form">
+			<input class = "js-input-post-name" type="text" name="country" placeholder="Enter user name">
+			<input class = "js-input-post-age" type="text" name="country" placeholder="Enter user age">
+			<button class="mdc-btn js-post" type="submit">Add user</button>
+		</form>
+
+		<form class="search-form">
+			<input class="js-input-remove-id" type="text" name="country" placeholder="Enter user id">
+			<button class="mdc-btn js-remove-id" type="submit">Remove id</button>
+		</form>
+
+				<form class="search-form">
+					<input class="js-input-update-id" type="text" name="country" placeholder="Enter user id">
+					<input class="js-input-update-name" type="text" name="country" placeholder="Enter user name">
+					<input class="js-input-update-age" type="text" name="country" placeholder="Enter user age">
+					<button class="mdc-btn js-update" type="submit">Update user</button>
+				</form>
+
+
+		<table>
+			<tr>
+				<th class="headerId">ID</th>
+				<th class="headerNameAge">NAME</th>
+				<th class="headerNameAge">AGE</th>
+			</tr>
+			<tbody class="result">
+
+			</tbody>
+		</table>
+
+
+
+
+
+
+	</div>
+	<script src="1.js"></script>
+</body>
+
+</html>
